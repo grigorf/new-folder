@@ -1,0 +1,263 @@
+@media all and ( min-width:900px){
+    .main_contant_items_item .main_contant_item_attr{
+        max-height: 35px;
+        overflow: hidden;
+        transition: max-height 0.3s linear;       
+    }
+    .main_contant_items_item .main_contant_panel{
+        max-height: 0;
+        transition: expandHeight 0.3s linear;
+    }
+}
+@media all and ( max-width: 1199px){
+    .main_contant_item_attr .main_contant_item_title{
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 899px){
+    .main_contant_items_item .main_contant_item_attr{
+        max-height: 35px;
+        overflow: hidden;
+        transition: max-height 0.3s linear;       
+    }
+    .main_header_forms_top.flex.form_row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal_container{
+        flex-direction: column;
+    }
+    .main_header_forms_top.flex.form_row>.flex_item:nth-child(2) {
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid #dbe0e7;
+        border-bottom: 2px solid #dbe0e7;
+    }
+    .main_header_forms_top.flex.form_row>flex_item{
+        width: 100%;
+    }
+    form.main_header_forms_form{
+        padding: 0 0 25px;
+    }
+    .main_contant_item_attr .main_contant_item_title{
+        font-size: 14px;
+    }
+    .main_contant_item_attr div {
+        color: #fff;
+        font-size: 13px;
+    }
+    .main_contant_item_attr{
+        padding: 0 15px;
+    }
+    .form_row{
+        align-items: center;
+
+    }
+    .raing_values span{
+        font-size: 10px;
+    }
+    .slider_treck input {
+        width: 269%;
+    }
+    .values input{
+        font-size: 10px;
+    }
+    .values input {
+        max-width: 34px;
+    }
+    .raing-valius span{
+        font-size: 12px;
+    }
+    .slider_treck input{
+        width: 100%;
+    }
+    .values input:nth-child(1) {
+        margin-left: 143px;
+    }
+}
+@media all and (max-width: 767px){
+    .main_contant_item_img img {
+        max-width: 294px;
+        padding-left: 50px;
+    }
+    .main_header_forms_bottom .form_row{
+        width: 100%;
+    }
+    .main_header_forms_bottom .flex{
+        flex-wrap: wrap;
+    }
+    .main_header_forms_bottom .form-row:first-child{
+            margin-bottom: 0;
+    }
+    .footer_contant {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .login_block.fl_right a span{
+        display: none;
+    } 
+    .login_block.fl_right a{
+        border: none;
+    }
+    header .login_block a img{
+        width: 15px !important;
+        height: 18px !important;
+    }
+    .main_header_forms_btn_bottom{
+        font-size: 18px;
+        line-height: 23.87px;
+        font-weight: 600;
+    }
+    .form_results{
+        background: #0000001A;
+        max-width: 300px;
+        margin: auto;
+        font-size: 11px;
+        padding: 6px 20px;
+        margin-top: 5px;
+    }
+    .main_contant_panel{
+        max-height: none;
+    }
+    header{
+        width: 100%;
+    }
+    .desc_item{
+        flex-direction: column;
+    }
+    .main_contant_item_attr{
+        max-height: none;
+    }
+    .main_contant_item_desc{
+        justify-content: space-between;
+    }
+    .raing_values span {
+        font-size: 20px;
+    }
+    .raing_slider {
+        margin-left: 562px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 638px;
+    }
+    .main_contant_item_desc .desc_item .item:last-child{
+        opacity: 0.5;
+    }
+    .main_contant_item_desc>div{
+        width: 25%;
+    }
+    .values input:nth-child(1) {
+        margin-left: 492px;
+    }
+    .raing-valius{
+        align-items: center;
+        display: flex;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 581px;
+    }
+    .main_contant_items_item .main_contant_item_attr {
+        margin-left: 35px;
+    }
+    .unavailable {
+        margin-left: 50px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-left: 54px;
+    }
+    .raing-valius span:nth-child(2){
+        padding-right: 54px;
+    }
+    .form_row_box label{
+        padding-left: 30px;
+    }
+    .raing_block.tome_slider input {
+        width: 77%;
+    }
+    .slider_treck input{
+        width: 77%;
+    }
+    .values input:nth-child(1) {
+        margin-left: 431px;
+    }
+    .form_row_box label {
+        padding-left: 97px;
+    }
+    .values input:nth-child(1) {
+        margin-left: 300px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 396px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-left: 95px;
+    }
+    .raing_values span {
+        font-size: 15px;
+    }
+    .raing_slider {
+        margin-left: 295px;
+    }
+    .values input:nth-child(1) {
+        margin-left: 258px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-left: 87px;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 346px;
+    }
+    .values input:nth-child(1) {
+        margin-left: 232px;
+    }
+    .item {
+        max-width: 100%;
+        word-break: break-word;
+    }
+    .main-content-items .main-content-items-item:nth-child(4) ~ .main-content-items-item {
+        display: none;
+    }
+    .footer-item p, .footer-item a, .footer-item span{
+        color: white;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer-item p {
+        margin: 0 auto 15px;
+    }
+    .a.social-btn {
+        background: #65CF72;
+        padding: 12px 32px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a.social-btn img {
+        margin-right: 15px;
+    }
+    .raing_slider {
+        margin-left: 30%;
+    }
+    .values input:nth-child(1) {
+        margin-left: 0;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 57%;
+    }
+    .form_row_box label {
+        margin-right: 42%;
+    }
+}
+@media all and (max-width: 484px){
+    .main-content-items-item {
+        width: 100%;
+    }
+    .form_row_box label {
+        margin-right: 22%;
+    }
+    .raing-valius span:nth-child(1) {
+        margin-right: 49%;
+    }
+}
